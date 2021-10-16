@@ -1,0 +1,417 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #eee;
+    padding: 0 16px;
+    overflow-x: hidden;
+}
+  
+  
+  
+header {
+    background-color: rgb(2, 33, 58);
+    margin: auto -16px;
+    padding: 30px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  
+}
+  
+  
+header h1 {
+    color: rgb(0, 255, 234);
+    font-weight: 200;
+    padding-left:10%;
+  
+}
+
+.head2{
+    color:rgb(184, 250, 243);
+    font-weight: 200;
+    padding-left:20%;
+
+}
+  
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  
+}
+  
+  
+footer p {
+    color: rgb(19, 20, 20);
+}
+
+.first-page{
+    position: absolute;
+    top:30%;
+    left:35%;
+
+}
+
+.hiring {
+    text-decoration: none;
+    border: 3px solid rgb(192, 196, 195);
+    color: transparent;
+    padding: 40px 80px;
+    font-size: 28px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 0.5s;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+  
+}
+  
+.hiring:before {
+    content: "HR (FOR HIRING)";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background: rgb(6, 21, 44);
+    font-size: 28px;
+    top: 0;
+    left: 100%;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: scale(0) rotatey(0);
+    opacity: 0;
+    border-radius: 10px;
+  
+}
+  
+.hiring:hover:before {
+    transform: scale(1) rotatey(360deg);
+    left: 0;
+    opacity: 1;
+    border-radius: 10px;
+  
+}
+  
+.hiring:after {
+    content: "HR (FOR HIRING)";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background: rgb(6, 21, 44);
+    font-size: 28px;
+    top: 0;
+    left: 0;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: scale(1) rotatey(0);
+    opacity: 1;
+    border-radius: 10px;
+  
+}
+  
+.hiring:hover:after {
+    transform: scale(0) rotatey(360deg);
+    left: -100%;
+    opacity: 0;
+  
+}
+
+
+.applying {
+    text-decoration: none;
+    border: 3px solid rgb(192, 196, 195);
+    color: transparent;
+    padding: 40px 80px;
+    font-size: 28px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 0.5s;
+    position: relative;
+    cursor: pointer;
+    top: 20px;
+    left:-70px;
+    border-radius: 10px;
+}
+  
+.applying:before {
+    content: "Employee (FOR APPLYING)";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background: black;
+    font-size: 28px;
+    top: 0;
+    left: 100%;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: scale(0) rotatey(0);
+    opacity: 0;
+    border-radius: 10px;
+  
+}
+  
+.applying:hover:before {
+    transform: scale(1) rotatey(360deg);
+    left: 0;
+    opacity: 1;
+    border-radius: 10px;
+  
+}
+  
+.applying:after {
+    content: "Employee (FOR APPLYING)";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background: black;
+    font-size: 28px;
+    top: 0;
+    left: 0;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: scale(1) rotatey(0);
+    opacity: 1;
+    border-radius: 10px;
+  
+}
+  
+.applying:hover:after {
+    transform: scale(0) rotatey(360deg);
+    left: -100%;
+    opacity: 0; 
+}
+  
+.hire-page{
+    position: absolute;
+    top:20%;
+    left:30%;
+}
+  
+.create-job{
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 15px;
+    perspective: 1000px;
+    top:160px;
+  
+}
+.create-job{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+  
+.create-job:before,
+.create-job:after{
+    position: absolute;
+    content: "Create a New Job";
+    height: 55px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+  
+}
+.create-job:before{
+    color: #fff;
+    background: #000;
+    transform: rotateY(0deg) translateZ(25px);
+  
+}
+.create-job:after{
+    color: #000;
+    transform: rotateX(90deg) translateZ(25px);
+  
+}
+.create-job:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+  
+}
+
+.alert-job{
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 15px;
+    perspective: 1000px;
+  
+}
+.alert-job{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    top:280px;
+    cursor: pointer;
+
+}
+  
+.alert-job:before,
+.alert-job:after{
+    position: absolute;
+    content: "Job Alerts Page";
+    height: 55px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+  
+}
+.alert-job:before{
+    color: #fff;
+    background: #000;
+    transform: rotateY(0deg) translateZ(25px);
+  
+}
+.alert-job:after{
+    color: #000;
+    transform: rotateX(90deg) translateZ(25px);
+  
+}
+.alert-job:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+}
+  
+.hire-title{
+    size: 20px;
+}
+
+.alert-boxaftercreating{
+    size:20px;
+}
+
+.create-jobpage{
+    position: absolute;
+    top:30%;
+    left:40%;
+}
+
+input{
+    width:100%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+  
+}
+  
+  
+input:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}
+
+.hr-des{
+    padding-left: 10px;
+    padding-bottom: 20px;
+    right: 100px; 
+}
+
+.createjob-btn {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 50px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+  
+}
+  
+  
+.createjob-btn::after {
+    content: "";
+    background-color: rgb(0, 255, 234);
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  
+}
+  
+  
+.createjob-btn:hover::after {
+    top: 0px;
+    left: 0px;
+}
+  
+
+
+.applicant-grid{
+    cursor: pointer;
+    position: relative;
+    top:100px;
+    left:10px;
+  
+}
+  
+.hirepeople{
+    cursor: pointer;
+    position: relative;
+    top:100px;
+    left:10px;
+}
+
+.qrcode{
+    position: absolute;
+    top:40%;
+    left:40%;
+}
+
+h1{
+    font-family: 'Patrick Hand', cursive;
+}
+p{
+    font-family: 'Balsamiq Sans', cursive;
+}
+h3{
+    font-family: 'Patrick Hand', cursive;
+}

@@ -1,0 +1,39 @@
+[
+    {
+        "id":"1",
+        "jobcode":"5236343",
+        "name":"velvo",
+        "notes":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.",
+        "technology":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor commodo consequat pariatur. ",
+        "noticeperiod":"6",
+        "salary":"13,000 Rs"
+    },
+    {
+        "id":"2",
+        "name":"john",
+        "jobcode":"5221343",
+        "notes":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.",
+        "technology":"IOS-Developer",
+        "noticeperiod":"9",
+        "salary":"19,000 Rs"
+    },
+    {
+        "id":"2",
+        "jobcode":"5239273",
+        "name":"Marie",
+        "notes":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.",
+        "technology":"Java-Developer",
+        "noticeperiod":"11",
+        "salary":"12,000 Rs"
+    },
+    {
+        "id":"2",
+        "jobcode":"0986343",
+        "name":"Anna",
+        "notes":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.",
+        "technology":"IOS-Developer",
+        "noticeperiod":"5",
+        "salary":"21,000 Rs"
+    }
+    
+]
